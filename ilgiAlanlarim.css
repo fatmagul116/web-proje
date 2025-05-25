@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('resimler/ilgi.png') no-repeat center center fixed;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-img-top {
+  width: 100%;
+  height: auto; /* Adjust the height as needed */
+  object-fit: cover;
+}
+.card-title {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.card-body {
+  padding: 20px;
+}
+.card-audio {
+  width: 100%;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+}
