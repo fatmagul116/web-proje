@@ -18,11 +18,25 @@ body {
   width: 95%;
 }
 
-.kutu {
-  background-color: rgba(2, 69, 114, 0.4);
-  padding: 3%;
+
+
+
+.box img.img-fluid {
+  width: 100%; /* Resmin kapsayıcısının genişliği kadar olmasını sağlar */
+  height: auto; /* Yüksekliğin en boy oranını koruyarak otomatik ayarlanmasını sağlar */
+  object-fit: cover; /* Resmi kapsayıcıya sığdırmak için kırpar */
+  max-height: 200px; /* Belirli bir maksimum yükseklik ayarlayabilirsiniz */
+}
+.box {
+  height: 200px; /* Tüm kutuları aynı yüksekliğe getirebilirsiniz */
+  overflow: hidden; /* Eğer resim kutudan büyükse, fazla kısmı gizler */
 }
 
+
+/* You might want to add some margin below the heading for spacing */
+header h1 {
+    margin-bottom: 20px;
+}
 h1, h2 {
   color: #333;
 }
